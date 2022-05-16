@@ -1,0 +1,182 @@
+:root {
+  --secondary-text-color: #757575;
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-text-color: #ffffff;
+  --primary-bg-color: #f5f4fa;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-bg-color: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo-link {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-black {
+  color: var(--primary-text-color);
+}
+.logo-white {
+  color: var(--main-text-color);
+}
+
+/* site nav */
+.site-nav {
+  list-style: none;
+}
+
+.link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+
+.contact-block .contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.hero-title {
+  color: var(--main-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.button {
+  font-family: inherit;
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.section {
+  background-color: var(--primary-bg-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.card-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.card-position {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.address {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact-address .contact {
+  color: var(--address-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.btn {
+  color: var(--primary-text-color);
+  background: var(--primary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+}
+
+.caption {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.content {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
