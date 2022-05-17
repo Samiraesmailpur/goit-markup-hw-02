@@ -20,6 +20,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo-black {
   color: var(--primary-text-color);
@@ -29,9 +30,6 @@ body {
 }
 
 /* site nav */
-.site-nav {
-  list-style: none;
-}
 
 .link {
   color: var(--title-text-color);
@@ -39,6 +37,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link:hover,
@@ -55,14 +54,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .hero {
   background-color: var(--secondary-bg-color);
-}
-
-.list {
-  list-style: none;
 }
 
 .hero-title {
@@ -72,6 +68,13 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -92,7 +95,7 @@ body {
   cursor: pointer;
 }
 
-.section {
+.section-team {
   background-color: var(--primary-bg-color);
 }
 
@@ -112,16 +115,8 @@ body {
 
 .card-position {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-}
-
-.title {
-  color: var(--title-text-color);
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .footer {
@@ -130,15 +125,16 @@ body {
 
 .address {
   color: var(--main-text-color);
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .contact-address .contact {
   color: var(--address-text-color);
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .contact:hover,
 .contact:focus {
@@ -150,6 +146,7 @@ body {
 }
 
 .btn {
+  font-family: inherit;
   color: var(--primary-text-color);
   background: var(--primary-bg-color);
   font-weight: 500;
@@ -175,8 +172,16 @@ body {
 
 .content {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.item-list,
+.work-list,
+.cards-list,
+.filter-list,
+.list,
+.site-nav {
+  list-style-type: none;
 }
